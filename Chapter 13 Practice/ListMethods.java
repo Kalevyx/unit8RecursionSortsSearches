@@ -14,9 +14,15 @@ public class ListMethods
         {
             tempList = new ArrayList<Integer>(n);
             tempList.add(n);
-            ListMethods.makeList(n-1);
-            
+            makeList(n-1);
         }
         return tempList;
     }
+    
+    public static ArrayList<Integer> reverseList(ArrayList<Integer> list){}
+    
+    public static ArrayList<Integer> deepClose(ArrayList<Integer> tList){
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        for(Integer i: tList){list.add(new Integer(i));}
+        return list;}
 }
