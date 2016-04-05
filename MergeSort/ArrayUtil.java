@@ -37,5 +37,21 @@ public class ArrayUtil
       a[i] = a[j];
       a[j] = temp;
    }
+   
+   public static String[] randomStringArray(int length, int numChars){
+       String[] a = new String[length];
+       
+       for(int i = 0; i < a.length; i++){
+           a[i] = randomString(numChars);}
+           
+       return a;}
+   
+   private static String randomString(int numChars){
+       String str = "";
+       
+       for(int i = 0; i < numChars; i++){
+           str += (char)(Math.random() * 26 + 97);
+       }
+       
+       return str;}
 }
-      
