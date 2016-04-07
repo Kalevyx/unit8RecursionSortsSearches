@@ -8,15 +8,18 @@ public class MergeSortDemo
 {  
    public static void main(String[] args)
    {  
-      /*int[] a = ArrayUtil.randomIntArray(20, 100);
+      int[] a = ArrayUtil.randomIntArray(20, 100);
       System.out.println(Arrays.toString(a));
 
       MergeSorter.sort(a);
 
-      System.out.println(Arrays.toString(a));*/
+      System.out.println(Arrays.toString(a));
       
-      String[] array = ArrayUtil.randomStringArray(10, 4);
+      /*String[] array = ArrayUtil.randomStringArray(10, 4);
       System.out.println(Arrays.toString(array));
+      
+      MergeSorter.sortStrings(array);
+      System.out.println(Arrays.toString(array));*/
    }
 }
 

@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class BubbleSort{
     public static int[] swap(int[] a){
-        for(int i = 1; i < a.length-1; i++){
+        for(int i = 1; i <= a.length-1; i++){
             if(a[i] < a[i-1]){
                 int temp = a[i];
                 a[i] = a[i-1];
